@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/keon-test-dapp/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keon test dApp</title>
+    <script>
+      // Follow the system theme before first paint (no stored preference, nothing to leak).
+      try {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.documentElement.classList.add('dark')
+        }
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="/keon-test-dapp/assets/index-BJMlorMj.js"></script>
+    <link rel="stylesheet" crossorigin href="/keon-test-dapp/assets/index-BOu7wvSs.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
